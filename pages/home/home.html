@@ -1,12 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,300;0,500;0,700;1,100&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./home.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Boa noite</h1>
+    <div class="wordmark">
+        <img src="../../assets/img/logo-nome.png" alt="">
+    </div> 
+    <div class="shadow-top"></div>
+    <div class="navbar">
+        <svg style="opacity: 0.75;" id="lightRays" width="34" height="40" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient x1="0%" y1="50%" y2="50%" id="a">
+                    <stop stop-color="var(--theme-page-header-nav-bg, #01b6d1)" stop-opacity=".6" offset="0%"></stop>
+                    <stop stop-color="var(--theme-page-header-nav-bg, #01b6d1)" stop-opacity=".25" offset="100%"></stop>
+                </linearGradient>
+                <linearGradient x1="0%" y1="50%" y2="50%" id="b">
+                    <stop stop-color="var(--theme-page-header-nav-bg, #01b6d1)" stop-opacity=".35" offset="0%"></stop>
+                    <stop stop-color="var(--theme-page-header-nav-bg, #01b6d1)" stop-opacity=".15" offset="100%"></stop>
+                </linearGradient>
+                <linearGradient x1="0%" y1="50%" x2="98.607%" y2="50%" id="c">
+                    <stop stop-color="var(--theme-page-header-nav-bg, #01b6d1)" stop-opacity=".6" offset="0%"></stop>
+                    <stop stop-color="var(--theme-page-header-nav-bg, #01b6d1)" stop-opacity=".35" offset="100%"></stop>
+                </linearGradient>
+            </defs>
+            <g fill-rule="nonzero" fill="none">
+                <path fill="url(#a)" d="M8 40V0h10.34l-7.755 40z"></path>
+                <path fill="url(#b)" d="M8 40V3.93L33.984 40z"></path>
+                <path fill="url(#a)" d="M8 40V0l15.64 40z"></path>
+                <path fill="url(#c)" d="M10.598 40H7V0h3.598z"></path>
+                <path fill="var(--theme-page-header-nav-bg, #01b6d1)" d="M0 0h8v40H0z"></path>
+            </g>
+        </svg>
+        <div class="nav-itens">
+            <span class="item-menu">
+                Bibliotecas
+                <span class="material-icons">
+                    arrow_drop_down
+                </span>
+            </span>
+            <span class="item-menu">
+                Servir
+                <span class="material-icons">
+                    arrow_drop_down
+                </span>
+            </span>
+            <span class="item-menu">
+                Vivendo a Vida
+                <span class="material-icons">
+                    arrow_drop_down
+                </span>
+            </span>
+            <span class="item-menu">
+                Sobre nós
+                <span class="material-icons">
+                    arrow_drop_down
+                </span>
+            </span>
+        </div>
+        <div class="nav-icons">
+            <span class="material-icons">
+                search
+            </span>
+            <span class="material-icons">
+                public
+            </span>
+            <span class="material-icons">
+                apps
+            </span>
+            <span class="material-icons">
+                person_outline
+            </span>
+        </div>
+    </div>
+    <div class="shadow-bottom"></div>
 </body>
+
 </html>
